@@ -2,10 +2,10 @@
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
 	"name": "create-block/note-block",
-	"version": "1.1.4",
+	"version": "1.1.5",
 	"title": "Note",
 	"category": "widgets",
-	"icon": "lightning",
+	"icon": "info",
 	"description": "A block to highlight a note or fact or important message.",
 	"example": {},
 	"supports": {

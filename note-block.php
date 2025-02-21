@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Note Block
  * Description:       Example block scaffolded with Create Block tool.
- * Version:           1.1.3
+ * Version:           1.1.5
  * Requires at least: 6.7
  * Requires PHP:      7.4
  * Author:            The WordPress Contributors
