@@ -1,0 +1,76 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-note-block {
+	margin-top: 1.5rem; 
+	margin-bottom: 2rem;
+
+  .note-block {
+    background: #f9f9f9;
+    border-left: 6px solid #f1f1f1;
+    border-radius: 8px;
+    margin-bottom: 1.33rem;
+    margin-top: 1.33rem;
+    padding: .75rem;
+
+
+      
+    input {
+      border: 1px solid #f1f1f1;
+      border-radius: 8px;
+      font-size: 18px;
+      margin-bottom: 8px;
+      padding: 8px;
+    }
+
+    &__title {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      color: #082640;
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0;
+
+      .icon {
+        font-size: var(--size-400);
+        margin: 0;
+
+        svg {
+          height: 22px;
+          width: auto;
+
+          &.lightning-bolt {
+            fill: #c8c807;
+          }
+
+          &.light-bulb {
+            fill: #c8c807;
+          }
+
+          &.star {
+            fill: #FFD700;
+          } 
+
+          &.warning {
+            fill: #d9534f;
+          }
+
+          &.question-mark {
+            fill: #288000; 
+          }
+        }
+
+      }
+    }
+
+    &__content {
+      font-size: 18px;
+      margin-top: 1rem;
+    }
+  }
+}
