@@ -3,10 +3,10 @@
 	"apiVersion": 3,
 	"name": "create-block/note-block",
 	"version": "1.1.4",
-	"title": "Note Block",
+	"title": "Note",
 	"category": "widgets",
-	"icon": "smiley",
-	"description": "Example block scaffolded with Create Block tool.",
+	"icon": "lightning",
+	"description": "A block to highlight a note or fact or important message.",
 	"example": {},
 	"supports": {
 		"html": false
@@ -21,6 +21,7 @@
 			"default": "important"
 		}
 	},
+	"keywords": ["warning", "important", "note", "tip", "fact"],
 	"textdomain": "note-block",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
