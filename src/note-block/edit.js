@@ -1,5 +1,5 @@
-import { useBlockProps } from '@wordpress/block-editor';
-import { TextareaControl, SelectControl } from '@wordpress/components';
+import { useBlockProps, RichText } from '@wordpress/block-editor';
+import { SelectControl } from '@wordpress/components';
 import './editor.scss';
 import { options } from './options';
 
@@ -20,10 +20,12 @@ export default function Edit({ attributes, setAttributes }) {
 					/>
 				</div>
 				<div class="note-block__content">
-					<TextareaControl
+					<RichText
+						tagName="p"
 						value={text}
 						onChange={(newText) => setAttributes({ text: newText })}
-						rows={3}
+						placeholder="Type here and add links..."
+						allowedFormats={['core/bold', 'core/italic', 'core/link']}
 					/>
 				</div>
 			</aside>

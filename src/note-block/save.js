@@ -1,4 +1,4 @@
-import { useBlockProps } from '@wordpress/block-editor';
+import { useBlockProps, RichText } from '@wordpress/block-editor';
 import { options } from './options';
 
 export default function save({ attributes }) {
@@ -18,7 +18,10 @@ export default function save({ attributes }) {
 					<span class="title">{selected.label}</span>
 				</div>
 				<div class="note-block__content">
-					<p>{text}</p>
+					<RichText.Content
+						tagName="p"
+						value={text}
+					/>
 				</div>
 			</aside>
 		</div>
