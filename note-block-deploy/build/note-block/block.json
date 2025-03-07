@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/note-block",
+  "version": "1.1.5",
+  "title": "Note",
+  "category": "widgets",
+  "icon": "info",
+  "description": "A block to highlight a note or fact or important message.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "text": {
+      "type": "string",
+      "default": ""
+    },
+    "selectedOption": {
+      "type": "string",
+      "default": "important"
+    }
+  },
+  "keywords": [
+    "warning",
+    "important",
+    "note",
+    "tip",
+    "fact"
+  ],
+  "textdomain": "note-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
