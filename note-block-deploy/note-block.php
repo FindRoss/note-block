@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name:       Note Block
- * Description:       Example block scaffolded with Create Block tool.
- * Version:           1.1.5
+ * Description:       A block to show notes in Gutenberg block form.
+ * Version:           1.1.6
  * Requires at least: 6.7
  * Requires PHP:      7.4
  * Author:            The WordPress Contributors
