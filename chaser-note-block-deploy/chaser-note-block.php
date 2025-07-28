@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Chaser Note Block
  * Description:       A custom block for adding notes
- * Version:           1.1.7
+ * Version:           1.1.8
  * Requires at least: 6.7
  * Requires PHP:      7.4
  * Author:            The WordPress Contributors

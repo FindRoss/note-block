@@ -6,17 +6,20 @@
  */
 
 .wp-block-create-block-chaser-note-block {
-	margin-top: 1.5rem; 
-	margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
 
   .note-block {
     background: #f9f9f9;
     border-left: 6px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
     border-radius: 8px;
     margin-bottom: 1.33rem;
     margin-top: 1.33rem;
     padding: .75rem;
-      
+
     input {
       border: 1px solid #f1f1f1;
       border-radius: 8px;
@@ -55,14 +58,14 @@
 
           &.star {
             fill: #FFD700;
-          } 
+          }
 
           &.warning {
             fill: #d9534f;
           }
 
           &.question-mark {
-            fill: #288000; 
+            fill: #288000;
           }
         }
 

@@ -2,7 +2,7 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "create-block/chaser-note-block",
-  "version": "1.1.5",
+  "version": "1.1.8",
   "title": "Note",
   "category": "widgets",
   "icon": "info",
